@@ -1,0 +1,21 @@
+<div class="container mt-4">
+
+  <div class="mb-4">
+    <button class="btn btn-outline-primary me-2" (click)="selectCategory(1)">Jedzenie</button>
+    <button class="btn btn-outline-secondary" (click)="selectCategory(2)">Części Samochodowe</button>
+  </div>
+
+  <div class="row">
+
+    <div *ngFor="let item of selectedItems" class="col-md-4 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.nazwa }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Cena: {{ item.cena }} zł</h6>
+          <p class="card-text">{{ item.opis }}</p>
+          <button class="btn btn-primary" (click)="kup(item)">Kup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
