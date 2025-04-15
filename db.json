@@ -4,121 +4,177 @@
       "nazwa": "Pizza",
       "cena": 25.99,
       "opis": "ciasto, sos pomidorowy, ser, szynka, pieczarki",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Burger",
       "cena": 19.99,
       "opis": "bułka, wołowina, ser, sałata, pomidor, sos",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Spaghetti",
       "cena": 22.99,
       "opis": "makaron, sos pomidorowy, mięso mielone, ser",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Sałatka Cezar",
       "cena": 18.99,
       "opis": "sałata, kurczak, grzanki, parmezan, sos cezar",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Kebab",
       "cena": 16.99,
       "opis": "chleb pita, kurczak, warzywa, sos czosnkowy",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Zupa pomidorowa",
       "cena": 12.99,
       "opis": "pomidor, makaron, śmietana, przyprawy",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Pierogi ruskie",
       "cena": 14.99,
       "opis": "ciasto, ziemniaki, ser biały, cebula",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Schabowy z ziemniakami",
       "cena": 24.99,
       "opis": "schab, ziemniaki, kapusta kiszona",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Ryba z frytkami",
       "cena": 21.99,
       "opis": "dorsz, frytki, sos tatarski",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Tortilla z kurczakiem",
       "cena": 17.99,
       "opis": "tortilla, kurczak, warzywa, sos",
-      "category": 1
+      "category": 1,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Filtr oleju",
       "cena": 29.99,
       "opis": "filtr do oleju silnikowego, kompatybilny z wieloma modelami",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Filtr powietrza",
       "cena": 34.99,
       "opis": "filtr powietrza do silnika, zapewnia czyste powietrze",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Klocki hamulcowe",
       "cena": 89.99,
       "opis": "wysokiej jakości klocki hamulcowe, zestaw na jedną oś",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Tarcze hamulcowe",
       "cena": 199.99,
       "opis": "tarcze hamulcowe o zwiększonej trwałości",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Amortyzator",
       "cena": 249.99,
       "opis": "amortyzator gazowy, zapewnia komfort jazdy",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Pasek klinowy",
       "cena": 49.99,
       "opis": "pasek napędowy do alternatora i pompy wody",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Świeca zapłonowa",
       "cena": 19.99,
       "opis": "świeca zapłonowa do silników benzynowych",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Akumulator",
       "cena": 399.99,
       "opis": "akumulator 12V, 60Ah, wysoka wydajność",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Żarówka H7",
       "cena": 14.99,
       "opis": "żarówka halogenowa do reflektorów",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
     },
     {
       "nazwa": "Lusterko boczne",
       "cena": 149.99,
       "opis": "lusterko boczne z regulacją elektryczną",
-      "category": 2
+      "category": 2,
+      "imageUrl": "znak.jpg"
+    },
+    {
+      "id": "d5fb",
+      "nazwa": "abc",
+      "cena": 12.5,
+      "opis": "dsjsdjk",
+      "category": 1,
+      "imageUrl": "znak.jpg"
+    },
+    {
+      "id": "d449",
+      "nazwa": "jobtwojamac",
+      "cena": 12000,
+      "opis": "Esa",
+      "category": "2",
+      "imageUrl": "znak.jpg"
+    },
+    {
+      "id": "a00f",
+      "nazwa": "dds",
+      "cena": 12,
+      "opis": "asd",
+      "category": 1,
+      "imageUrl": "znak.jpg"
+    }
+  ],
+  "Zamowienia": [
+    {
+      "id": 1,
+      "nazwa": "Zamówienie 1",
+      "data": "2025-04-15T10:07:44.218Z"
+    },
+    {
+      "id": 2,
+      "nazwa": "Zamówienie 2",
+      "data": "2025-04-15T10:08:20.950Z"
     }
   ]
 }

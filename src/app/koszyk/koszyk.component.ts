@@ -1,28 +1,38 @@
-import { Component, OnInit } from '@angular/core';
-import { ProductService } from '../shared/interfaces/product.service'; // Adjusted path
-import { Product } from '../shared/interfaces/product';
-import {NgForOf} from '@angular/common';
+import { Component } from '@angular/core';
+import { ProductService } from '../shared/interfaces/product.service';
+import { Product, Zamowienia } from '../shared/interfaces/product';
+import {CommonModule} from '@angular/common';
 
 @Component({
   selector: 'app-koszyk',
   templateUrl: './koszyk.component.html',
   styleUrls: ['./koszyk.component.css'],
-  imports: [
-    NgForOf
-  ]
+  standalone: true,
+  imports: [CommonModule],
+
 })
-export class KoszykComponent implements OnInit {
+export class KoszykComponent {
   cartItems: Product[] = [];
 
-  constructor(private productService: ProductService) {}
-
-  ngOnInit() {
-    this.productService.getCartItems().subscribe((items: Product[]) => { // Explicit type for 'items'
+  constructor(private productService: ProductService) {
+    this.productService.getCartItems().subscribe(items => {
       this.cartItems = items;
     });
   }
 
   removeFromCart(item: Product) {
     this.productService.removeFromCart(item);
+  }
+
+  placeOrder() {
+    const newOrder: Zamowienia = {
+      id: Date.now(),
+      nazwa: `Zamówienie ${Date.now()}`,
+      data: new Date()
+    };
+
+    this.productService.addNewOrder(newOrder).subscribe(() => {
+      alert('Zamówienie zostało złożone!');
+    });
   }
 }
