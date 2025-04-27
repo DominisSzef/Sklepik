@@ -5,140 +5,160 @@
       "cena": 25.99,
       "opis": "ciasto, sos pomidorowy, ser, szynka, pieczarki",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "df91"
     },
     {
       "nazwa": "Burger",
       "cena": 19.99,
       "opis": "bułka, wołowina, ser, sałata, pomidor, sos",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "d5b4"
     },
     {
       "nazwa": "Spaghetti",
       "cena": 22.99,
       "opis": "makaron, sos pomidorowy, mięso mielone, ser",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "e788"
     },
     {
       "nazwa": "Sałatka Cezar",
       "cena": 18.99,
       "opis": "sałata, kurczak, grzanki, parmezan, sos cezar",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "d97e"
     },
     {
       "nazwa": "Kebab",
       "cena": 16.99,
       "opis": "chleb pita, kurczak, warzywa, sos czosnkowy",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "fdf1"
     },
     {
       "nazwa": "Zupa pomidorowa",
       "cena": 12.99,
       "opis": "pomidor, makaron, śmietana, przyprawy",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "aad1"
     },
     {
       "nazwa": "Pierogi ruskie",
       "cena": 14.99,
       "opis": "ciasto, ziemniaki, ser biały, cebula",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "c989"
     },
     {
       "nazwa": "Schabowy z ziemniakami",
       "cena": 24.99,
       "opis": "schab, ziemniaki, kapusta kiszona",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "0e0f"
     },
     {
       "nazwa": "Ryba z frytkami",
       "cena": 21.99,
       "opis": "dorsz, frytki, sos tatarski",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "6966"
     },
     {
       "nazwa": "Tortilla z kurczakiem",
       "cena": 17.99,
       "opis": "tortilla, kurczak, warzywa, sos",
       "category": 1,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "d868"
     },
     {
       "nazwa": "Filtr oleju",
       "cena": 29.99,
       "opis": "filtr do oleju silnikowego, kompatybilny z wieloma modelami",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "32f8"
     },
     {
       "nazwa": "Filtr powietrza",
       "cena": 34.99,
       "opis": "filtr powietrza do silnika, zapewnia czyste powietrze",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "6faf"
     },
     {
       "nazwa": "Klocki hamulcowe",
       "cena": 89.99,
       "opis": "wysokiej jakości klocki hamulcowe, zestaw na jedną oś",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "2f7e"
     },
     {
       "nazwa": "Tarcze hamulcowe",
       "cena": 199.99,
       "opis": "tarcze hamulcowe o zwiększonej trwałości",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "b814"
     },
     {
       "nazwa": "Amortyzator",
       "cena": 249.99,
       "opis": "amortyzator gazowy, zapewnia komfort jazdy",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "0991"
     },
     {
       "nazwa": "Pasek klinowy",
       "cena": 49.99,
       "opis": "pasek napędowy do alternatora i pompy wody",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "77af"
     },
     {
       "nazwa": "Świeca zapłonowa",
       "cena": 19.99,
       "opis": "świeca zapłonowa do silników benzynowych",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "8647"
     },
     {
       "nazwa": "Akumulator",
       "cena": 399.99,
       "opis": "akumulator 12V, 60Ah, wysoka wydajność",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "2a4e"
     },
     {
       "nazwa": "Żarówka H7",
       "cena": 14.99,
       "opis": "żarówka halogenowa do reflektorów",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "d85b"
     },
     {
       "nazwa": "Lusterko boczne",
       "cena": 149.99,
       "opis": "lusterko boczne z regulacją elektryczną",
       "category": 2,
-      "imageUrl": "znak.jpg"
+      "imageUrl": "znak.jpg",
+      "id": "ebc8"
     },
     {
       "id": "d5fb",
@@ -163,18 +183,29 @@
       "opis": "asd",
       "category": 1,
       "imageUrl": "znak.jpg"
+    },
+    {
+      "id": "22b1",
+      "nazwa": "JD",
+      "cena": 12,
+      "opis": "asdasdad",
+      "category": 1,
+      "imageUrl": "znak.jpg"
+    },
+    {
+      "id": "a3f5",
+      "nazwa": "asdas",
+      "cena": 1234,
+      "opis": "123123",
+      "category": 1,
+      "imageUrl": "znak.jpg"
     }
   ],
   "Zamowienia": [
     {
-      "id": 1,
+      "id": "9b16",
       "nazwa": "Zamówienie 1",
-      "data": "2025-04-15T10:07:44.218Z"
-    },
-    {
-      "id": 2,
-      "nazwa": "Zamówienie 2",
-      "data": "2025-04-15T10:08:20.950Z"
+      "data": "2025-04-26T23:54:45.939Z"
     }
   ]
 }

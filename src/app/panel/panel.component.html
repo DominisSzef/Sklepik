@@ -23,13 +23,17 @@
     <button type="submit" class="btn btn-primary" [disabled]="productForm.invalid">Dodaj Produkt</button>
   </form>
 </div>
+
 <div class="container mt-4">
   <h2>Zamówienia</h2>
   <ul class="list-group">
     <li *ngFor="let order of orders" class="list-group-item">
-      {{ order.nazwa }} - {{ order.data }}
-      <button class="btn btn-danger btn-sm" (click)="RemoveOrder(order.id!)">Usuń</button>
+      {{ order.nazwa }} -  {{ order.data | date:'dd-MM-yyyy HH:mm' }}
+      <button
+        class="btn btn-danger btn-sm"
+        (click)="order.id !== undefined && RemoveOrder(order.id)">
+        Usuń
+      </button>
     </li>
   </ul>
-
 </div>

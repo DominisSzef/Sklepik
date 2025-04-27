@@ -7,7 +7,7 @@ export interface Product {
   imageUrl: string;
 }
 export interface Zamowienia{
-  id: number;
+  id?: number;
   nazwa: string;
   data: Date;
 }

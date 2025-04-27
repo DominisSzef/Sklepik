@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { Product } from '../shared/interfaces/product';
-import {NgForOf, NgOptimizedImage} from '@angular/common';
+import {NgForOf} from '@angular/common';
 import { ProductService } from '../shared/interfaces/product.service'; // Import ProductService
 
 @Component({
@@ -10,7 +10,7 @@ import { ProductService } from '../shared/interfaces/product.service'; // Import
   templateUrl: './produkty.component.html',
   styleUrls: ['./produkty.component.css'],
   standalone: true,
-  imports: [HttpClientModule, NgForOf, NgOptimizedImage]
+  imports: [HttpClientModule, NgForOf, ]
 })
 export class ProduktyComponent implements OnInit {
   products: Product[] = [];

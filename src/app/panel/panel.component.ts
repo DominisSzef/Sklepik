@@ -1,15 +1,16 @@
 import {Component, OnInit} from '@angular/core';
 import { ProductService } from '../shared/interfaces/product.service';
 import {FormsModule} from '@angular/forms';
-import {Product, Zamowienia} from '../shared/interfaces/product';
-import {NgForOf} from '@angular/common';
+import {Zamowienia} from '../shared/interfaces/product';
+import {DatePipe, NgForOf} from '@angular/common';
 
 @Component({
   selector: 'app-panel',
   templateUrl: './panel.component.html',
   imports: [
     FormsModule,
-    NgForOf
+    NgForOf,
+    DatePipe
   ],
   styleUrls: ['./panel.component.css']
 })
@@ -32,7 +33,7 @@ export class PanelComponent implements OnInit {
   fetchOrders() {
     this.productService.getOrders().subscribe((orders: Zamowienia[]) => {
       this.orders = orders;
-      console.log(this.orders);
+    //  console.log(this.orders);
     });
   }
   addProduct() {
@@ -44,9 +45,11 @@ export class PanelComponent implements OnInit {
 
   RemoveOrder(orderId: number) {
     this.productService.removeOrder(orderId).subscribe(() => {
-      this.orders = this.orders.filter(order => order.id !== orderId); // Remove the order with the matching ID
+      // Po udanym usunięciu, usuń zamówienie z listy w komponencie
+      this.orders = this.orders.filter(order => order.id !== orderId);
       alert('Zamówienie zostało usunięte!');
-    });
+    }
+    );
   }
 
 
